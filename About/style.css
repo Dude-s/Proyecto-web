@@ -1,0 +1,31 @@
+.carousel {
+  width: 100%;
+  height: auto;
+  white-space: nowrap; /* Evita que las imágenes se dividan en varias líneas */
+  overflow: hidden;
+}
+
+.carousel img {
+  display: inline-block; /* Muestra las imágenes una junto a la otra */
+  width: 20%; /* Ajusta el ancho automáticamente */
+  height: auto; /* Ajusta la altura al 100% del contenedor */
+  vertical-align: top; /* Alinea las imágenes en la parte superior del contenedor */
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel img.active {
+  opacity: 1;
+}
+
+@keyframes carousel {
+  0% { transform: translateX(0); }
+  33.333% { transform: translateX(-33.333%); }
+  66.666% { transform: translateX(-66.666%); }
+  100% { transform: translateX(-100%); }
+}
+
+.carousel img {
+  animation: carousel 12s infinite;
+}
+
