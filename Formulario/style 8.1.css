@@ -1,0 +1,144 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding: 5px 5px 5px 5px;
+}
+#header{
+    border: 1px solid;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+
+}
+#art1{
+    margin: auto;
+ 
+    text-align: left;
+    
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+#art3{
+  
+    text-align: left;
+   
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+#art2{
+    margin: 10px auto;
+    border: transparent;
+    text-align: left;
+    
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+#section1{
+    margin: 10px auto;
+    border: 1px solid;
+    background-color: lightblue;
+    width: 50%;
+    font-size: 20px;
+    
+}
+#section2{
+    margin: 10px auto;
+    border: 1px solid;
+    background-color: lightblue;
+    width: 50%;
+    font-size: 20px;
+}
+#section3{
+    margin: 10px auto;
+    border: 1px solid;
+    background-color: lightblue;
+    width: 50%;
+    font-size: 20px;
+}
+#section4{
+    margin: 10px auto;
+    border: 1px solid;
+    background-color: lightblue;
+    width: 50%;
+
+}
+td{
+    border: 1px solid;
+    
+}
+#nom{
+    width: 465px;
+}
+#ape{
+    width: 465px;
+}
+#direc{
+    width: 465px;
+}
+#tel{
+    width: 465px;
+}
+#correo{
+    width: 465px;
+}
+#doc{
+    width: 465px;
+}
+#nac{
+    width: 465px;
+}
+.plan{
+    width: 800px;
+}
+.plan2{
+    
+    background-color: aliceblue;
+    text-align: center;
+}
+#pago{
+    width: 50px;
+}
+#contra{
+    width: 465px;
+}
+#per{
+    width: 465px;
+}
+#ins{
+    width: 465px;
+}
+
+.dia{
+    width: 50px;
+}
+
+.dias{
+    text-align: center;
+}
+
+.demo-form-submit {
+   
+    color: #FFF;
+    background-color: #4e7173;
+    padding: 10px 50px;
+    border: 0px;
+    
+    cursor: pointer;
+    border-radius:4px;
+}
+
+.boton{
+    margin: auto;
+}
+
