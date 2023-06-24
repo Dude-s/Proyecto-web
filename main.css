@@ -5,6 +5,10 @@
 
 }
 
+header {
+  background-color: rgb(236, 214, 255);
+}
+
 #sidebar {
   position: fixed;
   width: 200px;
@@ -12,6 +16,7 @@
   background: #151719;
   left: -200px;
   transition: all 500ms linear;
+  z-index: 9999;
 }
 
 #sidebar.active {
@@ -66,7 +71,7 @@
   content: "";
   width: 0;
   height: 4px;
-  background-color: rgb(7, 47, 226);
+  background-color: rgb(168, 98, 233);
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -81,4 +86,129 @@
 
 a:visited {
   color: inherit;
+}
+
+
+/*==========================================Contenido===================================================*/
+
+#contenido {
+  background-color: rgb(236, 214, 255);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+
+#contenido {
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+  text-align: center;
+}
+header {
+  height: 100px;
+}
+/*====================================logo y texto====================================================== */
+
+
+.Logo{
+  width: 10%;
+  height: auto;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Text-Logo{
+  margin: 20px;
+
+}
+.text-L{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+}
+.about{
+  margin: 20px;
+}
+.text{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+/*====================================game image====================================================== */
+
+.game-image{
+  height: 300px;
+}
+
+#animal-image{
+  position: absolute;
+  top: 50%; /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
+  left: 0; /* Coloca la imagen en la posición más a la izquierda del contenedor */
+  transform: translate(500px,500px); /* Alinea verticalmente la imagen */
+}
+.contenedor {
+  position: relative;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  width: 400px; /* Ajusta el ancho según tus necesidades */
+  margin: 0; /* Elimina los márgenes */
+  padding: 0; /* Elimina el relleno */
+}
+
+.contenedor img {
+  display: flex;
+  position: absolute;
+  top: 50%; /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
+  left: 0; /* Coloca la imagen en la posición más a la izquierda del contenedor */
+  transform: translate(-200px,10px); /* Alinea verticalmente la imagen */
+}
+
+/*====================================text terra====================================================== */
+
+#texto-terra{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  transform: translate(150px,250px); 
+  margin: 0px;
+  width: 800px;
+}
+
+#texto-animal{
+  width: 800px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  transform: translate(-400px,560px); 
+}
+
+
+/*====================================footer====================================================== */
+
+footer{
+  height: 10vh;
+  background-color: rgb(164, 124, 198);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: auto;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.Copy{
+  display: flex;
+  margin: 10px;
+}
+
+.redes{
+  display: flex;
+
+}
+.img-redes{
+  width: 30px;
+  height: auto;
+  margin: 10px;
 }
