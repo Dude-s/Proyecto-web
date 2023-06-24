@@ -54,12 +54,14 @@ body{
 }
 .P1, .P2, .P3 {
   width: 30%;
+  
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
   .P1, .P2, .P3{
     width: 100%;
   }
 }
+
 .imagenP{
   display: flex;
   justify-content: center;
@@ -80,6 +82,20 @@ body{
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+
+  overflow: break-word;
+}
+.descriptionTeam-1{
+  word-wrap: break-word;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 800px){
+  .descriptionTeam{
+    text-align: left;
+  }
 }
 /*----------------------------------------------------------*/
 
