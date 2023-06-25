@@ -1,4 +1,5 @@
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,65 +7,54 @@
   text-decoration: none;
 }
 
-body {
-  background-color: rgb(236, 214, 255);
+body{
+  background-color:rgb(236, 214, 255);
   font-family: 'Courier New', Courier, monospace;
 }
-
 /*----------------------------------------------------------*/
-.Logo {
+.Logo{
   width: 30%;
   height: auto;
 }
-
-.logo {
+.logo{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.Text-Logo {
+.Text-Logo{
   margin: 20px;
 
 }
-
-.text-L {
+.text-L{
   font-family: 'Courier New', Courier, monospace;
   font-size: 80px;
   text-align: center;
 }
-
-.about {
+.about{
   margin: 20px;
 }
-
-.text {
+.text{
   font-size: 20px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-
+  
 }
-
 /*----------------------------------------------------------*/
 
 
-@media (max-width: 800px) {
-
-  .P1,
-  .P2,
-  .P3 {
+@media (max-width: 800px){
+  .P1, .P2, .P3{
     width: 100%;
   }
 }
 
-.imagenP {
+.imagenP{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
-
-.titulo {
+.titulo{
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   color: #FFFFFF;
@@ -75,8 +65,7 @@ body {
   border-radius: 10px;
   display: inline-block;
 }
-
-.info {
+.info{
   text-align: left;
   font-size: 15px;
   font-family: 'Courier New', Courier, monospace;
@@ -86,18 +75,17 @@ body {
 }
 
 
-@media (max-width: 800px) {
-  .descriptionTeam {
+@media (max-width: 800px){
+  .descriptionTeam{
     text-align: left;
   }
 }
-
 /*----------------------------------------------------------*/
 
 
 
 /*----------------------------------------------------------*/
-footer {
+footer{
   height: 10vh;
   background-color: rgb(164, 124, 198);
   color: #fff;
@@ -107,18 +95,16 @@ footer {
   padding-top: 10px;
   padding-right: 10px;
 }
-
-.Copy {
+.Copy{
   display: flex;
   margin: 10px;
 }
 
-.redes {
+.redes{
   display: flex;
 
 }
-
-.img-redes {
+.img-redes{
   width: 30px;
   height: auto;
   margin: 10px;
@@ -139,3 +125,4 @@ footer {
 #div-cookies p {
   font-size: 16px;
 }
+
