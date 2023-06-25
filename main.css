@@ -8,13 +8,10 @@
 
 header {
   /*background-color: rgb(236, 214, 255);*/
-  background-image: linear-gradient(
-    150deg,
-    pink,
-    purple,
-    rgb(66, 19, 183)
-
-  );
+  background-image: linear-gradient(150deg,
+      pink,
+      purple,
+      rgb(66, 19, 183));
 }
 
 #sidebar {
@@ -42,7 +39,7 @@ header {
 .logo {
   border-radius: 50%;
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 #sidebar .toggle-btn {
@@ -60,22 +57,22 @@ header {
   border: 3px solid #000;
 }
 
-.icon{
+.icon {
   position: relative;
   top: 4px;
 }
 
-.sub_menu{
+.sub_menu {
   list-style: none;
 }
 
-.link{
+.link {
   text-decoration: none;
   padding: 10px;
   position: relative;
 }
 
-.link:after{
+.link:after {
   content: "";
   width: 0;
   height: 4px;
@@ -87,7 +84,7 @@ header {
   will-change: width;
 }
 
-.link:hover:after{
+.link:hover:after {
   width: 100%;
   right: 0;
 }
@@ -101,13 +98,10 @@ a:visited {
 
 #contenido {
   /*background-color: rgb(236, 214, 255);*/
-  background-image: linear-gradient(
-    150deg,
-    pink,
-    rgb(240, 133, 240),
-    rgb(232, 156, 255)
-
-  );
+  background-image: linear-gradient(150deg,
+      pink,
+      rgb(240, 133, 240),
+      rgb(232, 156, 255));
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
@@ -120,92 +114,110 @@ a:visited {
   height: 100vh;
   text-align: center;
 }
+
 header {
   height: 100px;
 }
+
 /*====================================logo y texto====================================================== */
 
 
-.Logo{
+.Logo {
   width: 10%;
   height: auto;
   justify-content: center;
 }
-.logo{
+
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Text-Logo{
+
+.Text-Logo {
   margin: 20px;
 
 }
-.text-L{
+
+.text-L {
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   text-align: center;
 }
-.about{
+
+.about {
   margin: 20px;
 }
-.text{
+
+.text {
   font-size: 20px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  
+
 }
 
 /*====================================game image====================================================== */
 
-.game-image{
+.game-image {
   height: 300px;
 }
 
-#animal-image{
+#animal-image {
   position: absolute;
-  top: 50%; /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
-  left: 0; /* Coloca la imagen en la posición más a la izquierda del contenedor */
-  transform: translate(500px,500px); /* Alinea verticalmente la imagen */
+  top: 50%;
+  /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
+  left: 0;
+  /* Coloca la imagen en la posición más a la izquierda del contenedor */
+  transform: translate(500px, 500px);
+  /* Alinea verticalmente la imagen */
 }
+
 .contenedor {
   position: relative;
-  height: 400px; /* Ajusta la altura según tus necesidades */
-  width: 400px; /* Ajusta el ancho según tus necesidades */
-  margin: 0; /* Elimina los márgenes */
-  padding: 0; /* Elimina el relleno */
+  height: 400px;
+  /* Ajusta la altura según tus necesidades */
+  width: 400px;
+  /* Ajusta el ancho según tus necesidades */
+  margin: 0;
+  /* Elimina los márgenes */
+  padding: 0;
+  /* Elimina el relleno */
 }
 
 .contenedor img {
   display: flex;
   position: absolute;
-  top: 50%; /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
-  left: 0; /* Coloca la imagen en la posición más a la izquierda del contenedor */
-  transform: translate(-400px,10px); /* Alinea verticalmente la imagen */
+  top: 50%;
+  /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
+  left: 0;
+  /* Coloca la imagen en la posición más a la izquierda del contenedor */
+  transform: translate(-400px, 10px);
+  /* Alinea verticalmente la imagen */
 }
 
 /*====================================text terra====================================================== */
 
-#texto-terra{
+#texto-terra {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  transform: translate(-50px,250px); 
+  transform: translate(-50px, 250px);
   margin: 0px;
   width: 800px;
 }
 
-#texto-animal{
+#texto-animal {
   width: 800px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  transform: translate(-400px,560px); 
+  transform: translate(-400px, 560px);
 }
 
 
 /*====================================footer====================================================== */
 
-footer{
+footer {
   height: 10vh;
-  background-color:rgb(152, 20, 192);
+  background-color: rgb(152, 20, 192);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -213,16 +225,18 @@ footer{
   padding-top: 10px;
   padding-right: 10px;
 }
-.Copy{
+
+.Copy {
   display: flex;
   margin: 10px;
 }
 
-.redes{
+.redes {
   display: flex;
 
 }
-.img-redes{
+
+.img-redes {
   width: 30px;
   height: auto;
   margin: 10px;
