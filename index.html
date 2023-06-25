@@ -1,7 +1,15 @@
+<!--
+<script>
+	
+  localStorage.acceptCookies = 'false';
+  
+</script>
+-->
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="Imagenes/Logo1.png">
   <title>Home - Sukub Games</title>
@@ -9,6 +17,15 @@
   <link rel="stylesheet" href="main.css">
 
 <body>
+  <div id="div-cookies" style="display: none;">
+		Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+		<a hreflang="es" href="Aviso_Legal.html">Aviso Legal</a>
+		y la
+		<a hreflang="es" href="Aviso_Legal.html">Política de Privacidad</a>.
+		<button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+		Acepto el uso de cookies
+		</button>
+	</div>	
 
   <div id="sidebar">
     <div class="toggle-btn">
@@ -83,6 +100,33 @@
     </div>
 
   </footer>
+
+  <div id="div-cookies" style="display: none;">
+		Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+		<a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+		y la
+		<a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+		<button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+			Acepto el uso de cookies
+		</button>
+	</div>
+	<!--<script src="main_About.js"></script>-->
+	
+	<script>
+		function checkAcceptCookies() {
+			if (localStorage.acceptCookies == 'true') {} else {
+				$('#div-cookies').show();
+			}
+		}
+		
+		function acceptCookies() {
+			localStorage.acceptCookies = 'true';
+			$('#div-cookies').hide();
+		}
+		$(document).ready(function() {
+			checkAcceptCookies();
+		});
+	</script>
 
   <script src="main.js"></script>
 </body>
