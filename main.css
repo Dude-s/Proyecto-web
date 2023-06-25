@@ -2,11 +2,19 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  color: white;
 
 }
 
 header {
-  background-color: rgb(236, 214, 255);
+  /*background-color: rgb(236, 214, 255);*/
+  background-image: linear-gradient(
+    150deg,
+    pink,
+    purple,
+    rgb(66, 19, 183)
+
+  );
 }
 
 #sidebar {
@@ -92,7 +100,14 @@ a:visited {
 /*==========================================Contenido===================================================*/
 
 #contenido {
-  background-color: rgb(236, 214, 255);
+  /*background-color: rgb(236, 214, 255);*/
+  background-image: linear-gradient(
+    150deg,
+    pink,
+    rgb(240, 133, 240),
+    rgb(232, 156, 255)
+
+  );
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
@@ -102,7 +117,7 @@ a:visited {
 #contenido {
   display: flex;
   justify-content: center;
-  height: 200vh;
+  height: 100vh;
   text-align: center;
 }
 header {
@@ -165,7 +180,7 @@ header {
   position: absolute;
   top: 50%; /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
   left: 0; /* Coloca la imagen en la posición más a la izquierda del contenedor */
-  transform: translate(-200px,10px); /* Alinea verticalmente la imagen */
+  transform: translate(-400px,10px); /* Alinea verticalmente la imagen */
 }
 
 /*====================================text terra====================================================== */
@@ -173,7 +188,7 @@ header {
 #texto-terra{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  transform: translate(150px,250px); 
+  transform: translate(-50px,250px); 
   margin: 0px;
   width: 800px;
 }
@@ -190,7 +205,7 @@ header {
 
 footer{
   height: 10vh;
-  background-color: rgb(164, 124, 198);
+  background-color:rgb(152, 20, 192);
   color: #fff;
   display: flex;
   justify-content: space-between;
