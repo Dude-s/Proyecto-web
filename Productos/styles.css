@@ -121,6 +121,17 @@ a:visited {
   flex-direction: column;
 }
 
+#contenedor{
+
+  justify-content: center;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
 h1 {
   text-align: center;
   color: #333;
@@ -133,14 +144,18 @@ h1 {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  height: 82vh;
+  width: 20%;
+  height: auto;
+  display: flex;
+
+  
 }
 
 .product-item {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 10px;
+  margin: 30px;
   padding: 20px;
   width: 300px;
   transition: box-shadow 0.3s ease;
