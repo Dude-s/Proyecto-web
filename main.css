@@ -2,22 +2,24 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  color: white;
+  color:#151719 ;
 
 }
 body{
-  background-image: linear-gradient(150deg,
+  /*background-image: linear-gradient(150deg,
   pink,
   rgb(240, 133, 240),
-  rgb(232, 156, 255));
+  rgb(232, 156, 255));*/
+  background-color: rgb(255, 191, 211);
 }
 
 header {
   /*background-color: rgb(236, 214, 255);*/
-  background-image: linear-gradient(150deg,
+ /* background-image: linear-gradient(150deg,
       pink,
       rgb(240, 133, 240),
-      rgb(232, 156, 255));
+      rgb(232, 156, 255));*/
+      background-color: palevioletred;
 }
 
 #sidebar {
@@ -70,19 +72,22 @@ header {
 
 .sub_menu {
   list-style: none;
+  color: #fff;
 }
 
 .link {
   text-decoration: none;
   padding: 10px;
   position: relative;
+  color: #fff ;
 }
 
 .link:after {
   content: "";
   width: 0;
   height: 4px;
-  background-color: rgb(168, 98, 233);
+  /*background-color: rgb(168, 98, 233);*/
+  background-color: palevioletred;
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -105,10 +110,11 @@ a:visited {
 #contenido {
   display: flex;
   /*background-color: rgb(236, 214, 255);*/
-  background-image: linear-gradient(150deg,
+  /*background-image: linear-gradient(150deg,
       pink,
       rgb(240, 133, 240),
-      rgb(232, 156, 255));
+      rgb(232, 156, 255));*/
+
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
@@ -209,50 +215,12 @@ header {
   padding-top: 70px;
 }
 
-/* #animal-image {
-  display: flex;
-  
 
- position: absolute;
-  top: 50%;
-  /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor 
-  left: 0;
-  /* Coloca la imagen en la posición más a la izquierda del contenedor 
-  transform: translate(500px, 500px);
-  /* Alinea verticalmente la imagen 
-}*/
 
-/*.contenedor {
-  position: relative;
-  height: 400px;
-  /* Ajusta la altura según tus necesidades 
-  width: 400px;
-  /* Ajusta el ancho según tus necesidades 
- 
-}*/
 
-/*.contenedor img {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor 
-  left: 0;
-  /* Coloca la imagen en la posición más a la izquierda del contenedor 
-  transform: translate(-400px, 10px);
-  /* Alinea verticalmente la imagen 
-}
-*/
 /*====================================text terra====================================================== */
 
-/*.texto-terra {
-  display: flex;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
-  transform: translate(-50px, 250px);
-  margin: 0px;
-  width: 800px;
 
-}*/
 
 .texto-terra{
   display: flex;
@@ -277,7 +245,8 @@ header {
 
 footer {
   height: 10vh;
-  background-color: rgb(152, 20, 192);
+  /*background-color: rgb(152, 20, 192);*/
+  background-color: palevioletred;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -290,6 +259,10 @@ footer {
 .Copy {
   display: flex;
   margin: 10px;
+}
+
+.Copy-text{
+  color: #fff;
 }
 
 .redes {
