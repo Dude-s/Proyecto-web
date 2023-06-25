@@ -11,10 +11,11 @@ body {
   background-color: #f1f1f1;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(150deg,
+  /*background-image: linear-gradient(150deg,
       pink,
       rgb(240, 133, 240),
-      rgb(232, 156, 255));
+      rgb(232, 156, 255));*/
+    background-color:  rgb(255, 191, 211);;
 }
 
 
@@ -102,10 +103,10 @@ a:visited {
 
 #contenido {
   /*background-color: rgb(236, 214, 255);*/
-  background-image: linear-gradient(150deg,
+  /*background-image: linear-gradient(150deg,
       pink,
       rgb(247, 90, 247),
-      rgb(232, 156, 255));
+      rgb(232, 156, 255));*/
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
@@ -207,7 +208,8 @@ h1 {
 /*====================================footer====================================================== */
 
 footer {
-  background-color: rgb(152, 20, 192);
+  /*background-color: rgb(152, 20, 192);*/
+  background-color: palevioletred;
   color: #fff;
   display: flex;
   justify-content: space-between;
