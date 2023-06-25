@@ -185,6 +185,9 @@ header {
 .game-image {
   width: 200px;
   height: auto;
+  border: 10px solid;
+  border-color: palevioletred;
+  border-radius: 10px;
 }
 
 .contenedor-terra{
@@ -196,6 +199,8 @@ header {
 
 .article2{
   display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 #texto-animal{
   margin: 20px;
@@ -212,7 +217,7 @@ header {
 
 .contenedor-animal{
   padding-right: 50px;
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 
@@ -239,6 +244,60 @@ header {
   font-size: 20px;
   transform: translate(-400px, 560px);
 }*/
+
+
+.article3{
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#texto-article3{
+  margin: 20px;
+}
+.texto-article3-titulo{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.texto-article3-letra{
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor-article3{
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+
+
+.article4{
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#texto-article4{
+  margin: 20px;
+}
+.texto-article4-titulo{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.texto-article4-letra{
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor-article4{
+  padding-right: 50px;
+  padding-top: 60px;
+}
+
+
+
 
 
 /*====================================footer====================================================== */
