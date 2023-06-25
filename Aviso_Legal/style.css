@@ -8,7 +8,8 @@
 }
 
 body{
-  background-color:rgb(236, 214, 255);
+  /*background-color:rgb(236, 214, 255);*/
+  background-color: rgb(255, 191, 211);
   font-family: 'Courier New', Courier, monospace;
 }
 /*----------------------------------------------------------*/
@@ -81,13 +82,26 @@ body{
   }
 }
 /*----------------------------------------------------------*/
+.article1{
+  margin: 10px;
+}
 
+.bienvenida{
+  margin-bottom: 10px;
+}
+.titulo{
+  margin-bottom: 20px;
+}
 
+.parrafo{
+  margin-bottom: 20px;
+}
 
 /*----------------------------------------------------------*/
 footer{
   height: 10vh;
-  background-color: rgb(164, 124, 198);
+  /*background-color: rgb(164, 124, 198);*/
+  background-color: palevioletred;
   color: #fff;
   display: flex;
   justify-content: space-between;
