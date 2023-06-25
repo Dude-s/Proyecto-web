@@ -2,10 +2,14 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  color: rgb(250, 249, 249);
+  /*color: rgb(250, 249, 249);*/
+  color:#151719 ;
 
 }
 
+body{
+  background-color: rgb(255, 191, 211);
+}
 
 #sidebar {
   position: fixed;
@@ -63,6 +67,7 @@
   text-decoration: none;
   padding: 10px;
   position: relative;
+  color: #fff;
 }
 
 .link:after {
@@ -91,10 +96,10 @@ a:visited {
 
 #contenido {
   /*background-color: rgb(236, 214, 255);*/
-  background-image: linear-gradient(150deg,
+ /*background-image: linear-gradient(150deg,
       pink,
       rgb(240, 133, 240),
-      rgb(232, 156, 255));
+      rgb(232, 156, 255));*/
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
@@ -110,7 +115,7 @@ a:visited {
 
 /* Contenido principal */
 label, h2, p{
-  color: white;
+  color:#151719 ;
 }
 
 .container {
@@ -120,7 +125,7 @@ label, h2, p{
 }
 
 h1 {
-  color: #ffffff;
+  color:#151719 ;
 }
 
 p {
@@ -169,7 +174,8 @@ button:hover {
 
 footer {
   height: 10vh;
-  background-color: rgb(152, 20, 192);
+  /*background-color: rgb(152, 20, 192);*/
+  background-color: palevioletred;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -181,6 +187,10 @@ footer {
 .Copy {
   display: flex;
   margin: 10px;
+}
+
+.Copy-text{
+  color: #fff;
 }
 
 .redes {
